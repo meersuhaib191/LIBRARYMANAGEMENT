@@ -5,7 +5,7 @@ if (!isset($_SESSION['username'])) {
     exit;
 }
 
-// Connect to database
+// Connect to database 
 $conn = mysqli_connect("localhost", "root", "", "attendence");
 
 // Check connection
