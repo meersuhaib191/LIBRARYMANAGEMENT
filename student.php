@@ -7,7 +7,7 @@ if (!$conn) {
     die("Connection failed: ". mysqli_connect_error());
 }
 
-// Retrieve the data from the form
+//    Retrieve the data from the form
 $enrollment_number = $_POST['enrollment-number'];
 
 
