@@ -7,7 +7,7 @@ if (!$conn) {
     die("Connection failed: ". mysqli_connect_error());
 }
 
-// Retrieve the search query from the form
+// Retrieve  the search query from the form
 $search_query = $_POST['search'];
 
 // Search query
