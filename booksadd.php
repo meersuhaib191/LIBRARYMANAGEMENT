@@ -5,6 +5,7 @@ if (!isset($_SESSION['username'])) {
     exit;
 }
 
+
 $conn = mysqli_connect("localhost", "root", "", "attendence");
 
 if ($conn->connect_error) {
